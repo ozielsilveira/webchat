@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #202124;
+  height: 100%;
+  margin: 0;
+  color: #5b81ff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.chat {
+  margin-top: 75px;
+  height: 700px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 15px;
+  margin-left: auto;
+  border-radius: 10px;
+  color: #4d4d4d;
+  background-color: #202124;
+  border-color: #5b81ff;
+}
+
+.tipoUsuario {
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: -45px;
+  margin-right: 82%;
+  color: #5b81ff;
+  background-color: #202124;
+  border-color: #5b81ff;
+}
+
+.messages {
+  height: 90%;
+  width: 100%;
+  padding: 15px;
+  margin: 15px;
+  border: double;
+  border-radius: 25px;
+}
+
+#clerk {
+  border-radius: 5px;
+  width: 30%;
+  border: solid 1px;
+  margin-left: 70%;
+  word-break: break-all;
+  text-align: right;  
+  padding-right: 7px;
+}
+
+#client{
+  border-radius: 5px;
+  width: 30%;
+  border: solid 1px;
+  word-break: break-all;  
+  padding-left: 7px;
+}
