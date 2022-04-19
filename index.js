@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function addMessage(input) {
     const messagesContainer = document.getElementById("messages");
 
+    
     if (document.getElementById("tipoUsuario").value == "cliente") {
         let clientDiv = document.createElement("div");
         clientDiv.id = "client"
